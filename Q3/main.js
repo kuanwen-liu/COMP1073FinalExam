@@ -30,6 +30,8 @@ btn[0].addEventListener('click', function() {
             img.setAttribute('src', cats.photo);
             // set image alternative information
             img.setAttribute('alt', cats.photo);
+            // set the size
+            img.width = "350";
 
             // display the data
             h2.innerHTML = 'Name: ' + cats.name;
@@ -70,6 +72,8 @@ btn[1].addEventListener('click', function() {
             img.setAttribute('src', cats.photo);
             // set image alternative information
             img.setAttribute('alt', cats.photo);
+            // set the size
+            img.width = "350";
 
             // display the data
             h2.innerHTML = 'Name: ' + cats.name;
@@ -110,6 +114,8 @@ btn[2].addEventListener('click', function() {
             img.setAttribute('src', cats.photo);
             // set image alternative information
             img.setAttribute('alt', cats.photo);
+            // set the size
+            img.width = "350";
 
             // display the data
             h2.innerHTML = 'Name: ' + cats.name;
